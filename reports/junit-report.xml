@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="adding-an-ad-to-your-favorite-list;from-the-ad-page,-adding-the-ad-to-the-fav-list-in-memo-page" tests="6" failures="0" skipped="6">
+        <properties>
+            <property name="URI" value="C:/Python27/EvolutionGamingJS/features/addtofav.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on the ads page" classname="adding-an-ad-to-your-favorite-list;from-the-ad-page,-adding-the-ad-to-the-fav-list-in-memo-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I scroll to the bottom of the page" classname="adding-an-ad-to-your-favorite-list;from-the-ad-page,-adding-the-ad-to-the-fav-list-in-memo-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click add to favorites" classname="adding-an-ad-to-your-favorite-list;from-the-ad-page,-adding-the-ad-to-the-fav-list-in-memo-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I dismiss the alert" classname="adding-an-ad-to-your-favorite-list;from-the-ad-page,-adding-the-ad-to-the-fav-list-in-memo-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I open the memo page" classname="adding-an-ad-to-your-favorite-list;from-the-ad-page,-adding-the-ad-to-the-fav-list-in-memo-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should see the ad listed in the memo page" classname="adding-an-ad-to-your-favorite-list;from-the-ad-page,-adding-the-ad-to-the-fav-list-in-memo-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="chosing-an-ad-category-from-the-home-page;chosing-an-ad-category" tests="3" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Python27/EvolutionGamingJS/features/chosecategory.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on the home page for ss.com" classname="chosing-an-ad-category-from-the-home-page;chosing-an-ad-category">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I click on a category name" classname="chosing-an-ad-category-from-the-home-page;chosing-an-ad-category">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should be redirected to that category page" classname="chosing-an-ad-category-from-the-home-page;chosing-an-ad-category">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="searching-for-an-ad-on-a-specific-category-page,;opening-a-search-page-from-a-category" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Python27/EvolutionGamingJS/features/search.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on a category page" classname="searching-for-an-ad-on-a-specific-category-page,;opening-a-search-page-from-a-category" time="4.840348601">
+        </testcase>
+        <testcase name="When I click search" classname="searching-for-an-ad-on-a-specific-category-page,;opening-a-search-page-from-a-category" time="0.460545401">
+        </testcase>
+        <testcase name="Then I should be redirected to the category search page" classname="searching-for-an-ad-on-a-specific-category-page,;opening-a-search-page-from-a-category" time="0.0014248">
+        </testcase>
+    </testsuite>
+    <testsuite name="searching-for-an-ad-on-a-specific-category-page,;searching-for-an-ad,-from-an-ad-category-page." tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Python27/EvolutionGamingJS/features/search.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on the category search page." classname="searching-for-an-ad-on-a-specific-category-page,;searching-for-an-ad,-from-an-ad-category-page." time="5.2889593">
+        </testcase>
+        <testcase name="When I enter &quot;Toyota&quot; into the search box." classname="searching-for-an-ad-on-a-specific-category-page,;searching-for-an-ad,-from-an-ad-category-page." time="0.071911299">
+        </testcase>
+        <testcase name="Then I should see some &quot;Toyota&quot; search results on the search results page." classname="searching-for-an-ad-on-a-specific-category-page,;searching-for-an-ad,-from-an-ad-category-page." time="0.0024509">
+        </testcase>
+    </testsuite>
+    <testsuite name="searching-for-an-ad-on-a-specific-category-page,;selecting-multiple-ads-from-the-search-list-and-adding-them-to-fav-list" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Python27/EvolutionGamingJS/features/search.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on search results page" classname="searching-for-an-ad-on-a-specific-category-page,;selecting-multiple-ads-from-the-search-list-and-adding-them-to-fav-list" time="6.434298199">
+        </testcase>
+        <testcase name="When I select multiple ads" classname="searching-for-an-ad-on-a-specific-category-page,;selecting-multiple-ads-from-the-search-list-and-adding-them-to-fav-list" time="0.0021147">
+        </testcase>
+        <testcase name="Then I scroll down" classname="searching-for-an-ad-on-a-specific-category-page,;selecting-multiple-ads-from-the-search-list-and-adding-them-to-fav-list" time="0.956200701">
+        </testcase>
+        <testcase name="When I click add to fav from the search result page" classname="searching-for-an-ad-on-a-specific-category-page,;selecting-multiple-ads-from-the-search-list-and-adding-them-to-fav-list" time="0.2902518">
+        </testcase>
+        <testcase name="Then I should see the ads on the memo page." classname="searching-for-an-ad-on-a-specific-category-page,;selecting-multiple-ads-from-the-search-list-and-adding-them-to-fav-list" time="0.0010698">
+        </testcase>
+    </testsuite>
+    <testsuite name="searching-for-an-ad-on-a-specific-category-page,;selecting-an-ad-from-the-search-list" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Python27/EvolutionGamingJS/features/search.feature">
+            </property>
+        </properties>
+        <testcase name="Given I am on search results page" classname="searching-for-an-ad-on-a-specific-category-page,;selecting-an-ad-from-the-search-list" time="6.417903199">
+        </testcase>
+        <testcase name="When Select the first ad" classname="searching-for-an-ad-on-a-specific-category-page,;selecting-an-ad-from-the-search-list" time="3.170859999">
+        </testcase>
+        <testcase name="Then open ad link, get redirected to the ad page" classname="searching-for-an-ad-on-a-specific-category-page,;selecting-an-ad-from-the-search-list" time="1.078546">
+        </testcase>
+    </testsuite>
+</testsuites>

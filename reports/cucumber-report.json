@@ -1,0 +1,429 @@
+[
+  {
+    "elements": [
+      {
+        "id": "adding-an-ad-to-your-favorite-list;from-the-ad-page,-adding-the-ad-to-the-fav-list-in-memo-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "From the ad page, adding the ad to the fav list in memo page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the ads page",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I scroll to the bottom of the page",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click add to favorites",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I dismiss the alert",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I open the memo page",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the ad listed in the memo page",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 3725263100
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "adding-an-ad-to-your-favorite-list",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Adding an ad to your favorite list",
+    "tags": [],
+    "uri": "C:/Python27/EvolutionGamingJS/features/addtofav.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "chosing-an-ad-category-from-the-home-page;chosing-an-ad-category",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Chosing an ad category",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the home page for ss.com",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on a category name",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be redirected to that category page",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4107121201
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "chosing-an-ad-category-from-the-home-page",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Chosing an ad category from the home page",
+    "tags": [],
+    "uri": "C:/Python27/EvolutionGamingJS/features/chosecategory.feature"
+  },
+  {
+    "description": "searching ",
+    "elements": [
+      {
+        "id": "searching-for-an-ad-on-a-specific-category-page,;opening-a-search-page-from-a-category",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Opening a search page from a category",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on a category page",
+            "result": {
+              "status": "passed",
+              "duration": 4840348601
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click search",
+            "result": {
+              "status": "passed",
+              "duration": 460545401
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should be redirected to the category search page",
+            "result": {
+              "status": "passed",
+              "duration": 1424800
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1108190900
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "searching-for-an-ad-on-a-specific-category-page,;searching-for-an-ad,-from-an-ad-category-page.",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Searching for an ad, from an ad category page.",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on the category search page.",
+            "result": {
+              "status": "passed",
+              "duration": 5288959300
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"Toyota\" into the search box.",
+            "result": {
+              "status": "passed",
+              "duration": 71911299
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see some \"Toyota\" search results on the search results page.",
+            "result": {
+              "status": "passed",
+              "duration": 2450900
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1753430700
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "searching-for-an-ad-on-a-specific-category-page,;selecting-multiple-ads-from-the-search-list-and-adding-them-to-fav-list",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Selecting multiple ads from the search list and adding them to fav list",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on search results page",
+            "result": {
+              "status": "passed",
+              "duration": 6434298199
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select multiple ads",
+            "result": {
+              "status": "passed",
+              "duration": 2114700
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:58"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I scroll down",
+            "result": {
+              "status": "passed",
+              "duration": 956200701
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click add to fav from the search result page",
+            "result": {
+              "status": "passed",
+              "duration": 290251800
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:70"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should see the ads on the memo page.",
+            "result": {
+              "status": "passed",
+              "duration": 1069800
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:75"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 636055100,
+              "error_message": "NoSuchElementError: Unable to locate element: //tbody/tr[4]/td[3]/div/a\n    at Object.throwDecodedError (C:\\Python27\\EvolutionGamingJS\\node_modules\\selenium-cucumber-js\\node_modules\\selenium-webdriver\\lib\\error.js:497:15)\n    at parseHttpResponse (C:\\Python27\\EvolutionGamingJS\\node_modules\\selenium-cucumber-js\\node_modules\\selenium-webdriver\\lib\\http.js:519:13)\n    at C:\\Python27\\EvolutionGamingJS\\node_modules\\selenium-cucumber-js\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\nFrom: Task: WebDriver.findElement(By(xpath, //tbody/tr[4]/td[3]/div/a))\n    at thenableWebDriverProxy.schedule (C:\\Python27\\EvolutionGamingJS\\node_modules\\selenium-cucumber-js\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at thenableWebDriverProxy.findElement (C:\\Python27\\EvolutionGamingJS\\node_modules\\selenium-cucumber-js\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1014:17)\n    at Object.memo_page_for_multiple_ads (C:\\Python27\\EvolutionGamingJS\\page-objects\\ad-page.js:58:20)\n    at createWorld.<anonymous> (C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:77:12)\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)"
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "searching-for-an-ad-on-a-specific-category-page,;selecting-an-ad-from-the-search-list",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Selecting an ad from the search list",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am on search results page",
+            "result": {
+              "status": "passed",
+              "duration": 6417903199
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Select the first ad",
+            "result": {
+              "status": "passed",
+              "duration": 3170859999
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "open ad link, get redirected to the ad page",
+            "result": {
+              "status": "passed",
+              "duration": 1078546000
+            },
+            "line": 25,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\step-definitions\\search.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1337586501
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Python27\\EvolutionGamingJS\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "searching-for-an-ad-on-a-specific-category-page,",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Searching for an ad on a specific category page,",
+    "tags": [],
+    "uri": "C:/Python27/EvolutionGamingJS/features/search.feature"
+  }
+]
